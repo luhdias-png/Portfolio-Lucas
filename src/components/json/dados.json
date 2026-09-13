@@ -1,0 +1,69 @@
+{
+    "tecnologiasMarquee": ["React", "NestJs", "TypeScript", "Tailwind", "Python", "PostgreSQL", "Node.js", "Docker"],
+    "skills": {
+      "frontend": [
+        { "nome": "React", "icone": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" },
+        { "nome": "TypeScript", "icone": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" },
+        { "nome": "JavaScript", "icone": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" },
+        { "nome": "Tailwind CSS", "icone": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" }
+      ],
+      "backend": [
+        { "nome": "Node.js", "icone": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" },
+        { "nome": "NestJS", "icone": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" },
+        { "nome": "Python", "icone": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" },
+        { "nome": "PostgreSQL", "icone": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" }
+      ],
+      "ferramentas": [
+        { "nome": "Git", "icone": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" },
+        { "nome": "Docker", "icone": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" }
+      ]
+    },
+    "eventos": [
+      { "ano": "2016", "titulo": "Área Patrimonial", "descricao": "Início da minha trajetória profissional. Desenvolvi fortes habilidades de gestão de tempo, responsabilidade e resolução de problemas práticos.", "icon": "Briefcase" },
+      { "ano": "2025", "titulo": "Início da Graduação", "descricao": "Iniciei Análise e Desenvolvimento de Sistemas. Foco na base de engenharia de software, algoritmos e boas práticas.", "icon": "BookOpen" },
+      { "ano": "2026", "titulo": "Bootcamp Generation", "descricao": "Formação intensiva como Full Stack. Criação de projetos práticos, trabalho em equipe sob metodologias ágeis.", "icon": "GraduationCap" },
+      { "ano": "Hoje", "titulo": "Desenvolvedor Full Stack", "descricao": "Atuando na criação de sistemas web de ponta a ponta. Foco em performance, código limpo (Clean Code) e ótima experiência do usuário.", "icon": "Code" }
+    ],
+    "projetos": [
+      {
+        "titulo": "Blog Pessoal",
+        "categoria": "Fullstack",
+        "descricao": "Plataforma completa de blog. Permite a criação de postagens, gerenciamento de temas e interação entre usuários.",
+        "papel": "Desenvolvimento integral (Front e Back). Foco em rotas protegidas e autenticação.",
+        "imagem": "https://private-user-images.githubusercontent.com/197832797/650986981-c7539908-e69a-4d65-89fe-5513be08b628.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODkzMjk1OTYsIm5iZiI6MTc4OTMyOTI5NiwicGF0aCI6Ii8xOTc4MzI3OTcvNjUwOTg2OTgxLWM3NTM5OTA4LWU2OWEtNGQ2NS04OWZlLTU1MTNiZTA4YjYyOC5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwOTEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDkxM1QxOTU0NTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNzFjYmNlNGNjNDRhMmMzMGE2M2EyZjg1NjhkMDRmNzQ4OGEyOWUxY2ExNDEzM2NhZDBjM2IyZTc4MmRiZWJlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZnaWYifQ.MEgEsMwrCIIVzRORsgWk_u0-ejg3wjpj1Rs-_v2SaCM",
+        "techs": ["React", "JavaScript", "CSS"],
+        "github": "https://github.com/luhdias-png/Blogpessoal-React",
+        "live": "https://blogpessoal-react-mocha-eta.vercel.app/"
+      },
+      {
+        "titulo": "Pokédex Interativa",
+        "categoria": "Frontend",
+        "descricao": "Aplicação front-end consumindo a PokéAPI. Apresenta listagem de Pokémons, detalhes de status, tipagens e paginação.",
+        "papel": "Criação do layout, gerenciamento de estados assíncronos e consumo de API REST externa.",
+        "imagem": "https://private-user-images.githubusercontent.com/197832797/617280533-12a54613-2b9f-4df6-b14e-8ebf9cffa357.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODkzMjYzOTUsIm5iZiI6MTc4OTMyNjA5NSwicGF0aCI6Ii8xOTc4MzI3OTcvNjE3MjgwNTMzLTEyYTU0NjEzLTJiOWYtNGRmNi1iMTRlLThlYmY5Y2ZmYTM1Ny5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwOTEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDkxM1QxOTAxMzVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00MTYzYjcwMzlhMzJlNzJlNjcxMzA5ZDc0ZWU1OTM4MTlkNDljZmVkOGM5YTZmZDA4MTg3MjgwYWQzODY0NGIyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZnaWYifQ.8Hxj7wOpA40DeamLXzKm5LgsIeXPNe2JD-_dmt7JI2s",
+        "techs": ["React", "API REST", "Tailwind"],
+        "github": "https://github.com/luhdias-png/Pokedex",
+        "live": "https://pokedex-beige-seven-35.vercel.app/"
+      },
+      {
+        "titulo": "VittaLis",
+        "categoria": "Fullstack",
+        "descricao": "Aplicação focada em saúde e bem-estar, desenvolvida em equipe. Ênfase em UI/UX amigável e acessível.",
+        "papel": "Liderei a construção de componentes reutilizáveis e integrei as rotas do front-end com o servidor.",
+        "imagem": "https://private-user-images.githubusercontent.com/197832797/650994850-5cd9791b-65f9-4121-ad74-5104efc767f1.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODkzMzA0MjksIm5iZiI6MTc4OTMzMDEyOSwicGF0aCI6Ii8xOTc4MzI3OTcvNjUwOTk0ODUwLTVjZDk3OTFiLTY1ZjktNDEyMS1hZDc0LTUxMDRlZmM3NjdmMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwOTEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDkxM1QyMDA4NDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iZGQyNGIzOTAzMDUyYjg0YmYzNzAxYjVlNmU2OGRmNDE0NzY1MjE4M2RkZGYxM2VjMWU3NjM2YjgyYjM2ODkxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.ecI_XHVpQfzBEZ614-_ZUmBjxtwNtqPZ-Sm88nxXBZ0",
+        "techs": ["React", "TypeScript", "Node.js"],
+        "github": "https://github.com/Grupo-5-JS-14/VittaLis-FrontEnd",
+        "live": "https://vittalis.vercel.app/"
+      },
+      {
+        "titulo": "VittaFit",
+        "categoria": "Fullstack",
+        "descricao": "Plataforma colaborativa voltada para o nicho fitness e atividades físicas. Interface moderna, dinâmica e totalmente responsiva.",
+        "papel": "Responsável pelo design system, implementação com Styled Components e lógica de formulários.",
+        "imagem": "https://private-user-images.githubusercontent.com/197832797/650994543-b3f7d8fd-d181-4016-b87a-aba6e6e7be53.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODkzMzAzNTgsIm5iZiI6MTc4OTMzMDA1OCwicGF0aCI6Ii8xOTc4MzI3OTcvNjUwOTk0NTQzLWIzZjdkOGZkLWQxODEtNDAxNi1iODdhLWFiYTZlNmU3YmU1My5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwOTEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDkxM1QyMDA3MzhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05Mjc4NWRlZGY3YzExZTU4ZDc0MWY4ODg4ZmYzNGU4MjgwYTAyY2IyYzVmODE1NmJkZWU4Mzk2NTgwY2M0ZDkwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.mAyn-VgmfkSUbvANbldT54a6uh2cVhhRMbPJueQax4g",
+        "techs": ["React", "Styled Components", "TypeScript"],
+        "github": "https://github.com/Grupo-5-JS-14/VittaFit-FrontEnd",
+        "live": "https://github.com/Grupo-5-JS-14/VittaFit-FrontEnd"
+      }
+    ]
+  }
