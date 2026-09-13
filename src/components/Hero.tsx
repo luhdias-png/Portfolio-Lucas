@@ -48,7 +48,7 @@ export function Hero (){
           <a href="https://www.linkedin.com/in/andre-lucas-dias-lima/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-3 bg-white/50 dark:bg-zinc-800/50 backdrop-blur-md border border-zinc-200 dark:border-zinc-700 text-zinc-900 dark:text-white font-semibold rounded-lg hover:bg-white dark:hover:bg-zinc-800 transition-all duration-300 hover:-translate-y-1" aria-label="Acessar meu LinkedIn">
             <LinkedinIcon size={20} /> LinkedIn
           </a>
-          <a href="#curriculo" className="group relative text-white font-bold text-[18px] inline-flex items-center gap-2 after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-0.5 after:w-0 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full" aria-label="Baixar meu Currículo em PDF">
+          <a href="/CV - ANDRE LUCAS.pdf" download="CV_ANDRE_LUCAS.pdf" rel="noopener noreferrer" target="_blank" className="group relative text-white font-bold text-[18px] inline-flex items-center gap-2 after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-0.5 after:w-0 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full" aria-label="Baixar meu Currículo em PDF">
             <FileText size={20} /> Currículo
             <ArrowRight size={25} className="material-symbols-outlined transition-transform duration-300 group-hover:-rotate-45" />
           </a>
