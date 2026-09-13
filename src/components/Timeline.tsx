@@ -24,7 +24,6 @@ export function Timeline() {
 
           <div ref={timelineRef} className="flex overflow-x-auto gap-6 pb-10 hide-scrollbar snap-x snap-mandatory">
             {DADOS.eventos.map((item, index) => {
-              const Icon = item.icon;
               return (
                 <div key={index} className="min-w-[100%] sm:min-w-[calc(50%-12px)] lg:min-w-[calc(25%-18px)] snap-start relative pl-6 py-6 border-l-2 border-zinc-300 dark:border-zinc-800 group hover:border-amber-500 transition-colors duration-300 animate-fade-in-up" style={{ animationDelay: `${(index + 1) * 150}ms` }}>
                   <div className="absolute -left-[11px] top-6 w-5 h-5 rounded-full bg-white dark:bg-zinc-900 border-4 border-zinc-300 dark:border-zinc-700 group-hover:border-amber-500 transition-colors duration-300 shadow-[0_0_0_4px_#fff] dark:shadow-[0_0_0_4px_#030712]"></div>
