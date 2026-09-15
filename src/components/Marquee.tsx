@@ -2,7 +2,7 @@ import DADOS from "./json/dados.json"
 
 export function Marquee() {
     return(
-        <div className="border-y border-zinc-600 dark:border-zinc-900 bg-zinc-50/50 dark:bg-zinc-950/50 py-4 overflow-hidden relative flex">
+        <div className="border-y border-zinc-600 dark:border-zinc-900 bg-zinc-50/50 dark:bg-zinc-950/50 py-4 overflow-hidden relative flex md:block hidden">
     <div className="absolute inset-y-0 left-0 w-12 sm:w-20 bg-gradient-to-r from-zinc-500 dark:from-[#030712] to-transparent z-10 pointer-events-none"></div>
     <div className="absolute inset-y-0 right-0 w-12 sm:w-20 bg-gradient-to-l from-zinc-500 dark:from-[#030712] to-transparent z-10 pointer-events-none"></div>
     

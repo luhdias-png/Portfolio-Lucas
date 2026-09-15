@@ -1,6 +1,8 @@
 import { MessageCircle } from "lucide-react";
 
 export function Contato(){
+
+  const mensagem = "Olá André, gostaria de falar com você."
     return(
           <section className="py-24 relative overflow-hidden">
     <div className="absolute inset-0 bg-zinc-500/5 dark:bg-[#030712]"></div>
@@ -13,7 +15,7 @@ export function Contato(){
       </p>
       
       <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-        <a href="https://wa.me/5511958491873?text=Olá tudo bem? Em que posso ajudar?" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto flex items-center justify-center gap-3 px-8 py-4 bg-zinc-900 dark:bg-zinc-800 text-white font-bold rounded-xl hover:bg-zinc-800 dark:hover:bg-zinc-700 transition-all duration-300 hover:-translate-y-1 border border-zinc-700">
+        <a href={`https://wa.me/5511958491873?text=${mensagem}`} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto flex items-center justify-center gap-3 px-8 py-4 bg-zinc-900 dark:bg-zinc-800 text-white font-bold rounded-xl hover:bg-zinc-800 dark:hover:bg-zinc-700 transition-all duration-300 hover:-translate-y-1 border border-zinc-700">
           <MessageCircle size={24} className="text-green-500" />
           Me chame no WhatsApp
         </a>
